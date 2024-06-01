@@ -1,27 +1,11 @@
-# Zadání
+# DONE
 
-1. Použij Next.js a Typescript
+Dobrý den,
 
-1. Vytvoř stránku `/planets`:
+v Next.js jsem nikdy moc nedělal, ale principy jsou určitě stejné. Aktuálně ve firmě, kde pracuji, používáme MUI components, takže nemám žádné styled components, které bych tu mohl použít, a nenastavoval jsem ani ThemeProvider.
 
-   - API pro získání seznamu: https://swapi.dev/api/planets
+Refetch funkci jsem schoval do error alertu.
 
-   - Přidej state pro celou aplikaci se seznamem planet (_React Context_). Tak, aby jej každá komponenta mohla použít.
+Spustil jsem aplikaci na svém VPS pomocí Dockeru. Následně jsem nastavil proxy server tak, aby směroval na Docker container
 
-   - Použij silně typové objekty.
-
-   - Použij _Styled Components_ pro UI zobrazení seznamu planet.
-
-1. Přidej další funkce
-
-   - Ošetři stavy aplikace při načítání seznamu a chyb při komunikaci s API.
-
-   - Implementuj stránkování.
-
-   - Tlačítko na refresh dat.
-
-1. Nasaď aplikaci tak, aby byla dostupná z internetu.
-
-1. Přidej odpovídající `README.md` a vystav kód tak, aby byl dostupný z internetu.
-
-1. Pošli nám odkaz na zdrojový kód a nasazenou aplikaci.
+https://cbdata.skrland.me/planets
