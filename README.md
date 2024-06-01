@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Zadání
 
-## Getting Started
+1. Použij Next.js a Typescript
 
-First, run the development server:
+1. Vytvoř stránku `/planets`:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+   - API pro získání seznamu: https://swapi.dev/api/planets
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+   - Přidej state pro celou aplikaci se seznamem planet (_React Context_). Tak, aby jej každá komponenta mohla použít.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+   - Použij silně typové objekty.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+   - Použij _Styled Components_ pro UI zobrazení seznamu planet.
 
-## Learn More
+1. Přidej další funkce
 
-To learn more about Next.js, take a look at the following resources:
+   - Ošetři stavy aplikace při načítání seznamu a chyb při komunikaci s API.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   - Implementuj stránkování.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+   - Tlačítko na refresh dat.
 
-## Deploy on Vercel
+1. Nasaď aplikaci tak, aby byla dostupná z internetu.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Přidej odpovídající `README.md` a vystav kód tak, aby byl dostupný z internetu.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Pošli nám odkaz na zdrojový kód a nasazenou aplikaci.

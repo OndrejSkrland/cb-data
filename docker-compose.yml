@@ -1,0 +1,9 @@
+version: '3'
+services:
+  web:
+    container_name: cb-data
+    build: .
+    ports:
+      - '8087:3000'
+    environment:
+      NODE_ENV: production
